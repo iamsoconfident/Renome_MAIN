@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axis";
+  src: url("../fonts/Axis.woff2") format("truetype");
+}
+
+$subtitle_color: #9c674c;
+
+.about {
+  margin-top: 15%;
+  margin-left: 15px;
+  margin-right: 65px;
+}
+
+.about__firstImage {
+  width: 75%;
+  margin-top: 50%;
+}
+
+.about__secondImage {
+  position: absolute;
+  width: 85%;
+  left: 20%;
+}
+
+.about__text {
+  font-family: "Montserrat";
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 800;
+  hyphens: auto;
+  margin-bottom: 10%;
+}
+
+.subtitle {
+  font-family: "Axis";
+  font-size: 14px;
+  color: $subtitle_color;
+}
+
+.title {
+  font-family: "Axis";
+  font-size: 40px;
+  letter-spacing: 7px;
+  margin-top: 240px;
+}
+
+.about-all-images {
+  display: block;
+}
