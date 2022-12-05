@@ -14,5 +14,41 @@
         "alt": "about-img-2"
       }
     ]
+  },
+
+  "gallery": {
+    "title": "gallery",
+    "subTitle": "MORE ABOUT US VIA PHOTOS",
+    "about_imgs": [
+      {
+        "path": "images/gallery_img_1.png",
+        "alt": "gallery-image-1"
+      },
+
+      {
+        "path": "images/gallery_img_3.png",
+        "alt": "gallery-image-3"
+      },
+
+      {
+        "path": "images/gallery_img_2.png",
+        "alt": "gallery-image-2"
+      },
+
+      {
+        "path": "images/gallery_img_6.png",
+        "alt": "gallery-image-6"
+      },
+
+      {
+        "path": "images/gallery_img_5.png",
+        "alt": "gallery-image-5"
+      },
+
+      {
+        "path": "images/gallery_img_4.png",
+        "alt": "gallery-image-4"
+      }
+    ]
   }
 }
