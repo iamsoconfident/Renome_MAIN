@@ -1,54 +1,45 @@
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Axis";
-  src: url("../fonts/Axis.woff2") format("truetype");
-}
-
-$subtitle_color: #9c674c;
+@import "../../../root.scss";
 
 .about {
   margin-top: 15%;
   margin-left: 15px;
   margin-right: 65px;
-}
 
-.about__firstImage {
-  width: 75%;
-  margin-top: 50%;
-}
+  &__image--first {
+    width: 80%;
+    margin-top: 50%;
+  }
 
-.about__secondImage {
-  position: absolute;
-  width: 85%;
-  left: 20%;
+  &__image--second {
+    position: absolute;
+    width: 75%;
+    left: 23%;
+  }
+
+  &__images--all {
+    display: block;
+  }
 }
 
 .about__text {
-  font-family: "Montserrat";
+  font-family: $montserrat;
   font-size: 13px;
   line-height: 30px;
   font-weight: 800;
   hyphens: auto;
   margin-bottom: 10%;
-}
+  margin-top: 80px;
 
-.subtitle {
-  font-family: "Axis";
-  font-size: 14px;
-  color: $subtitle_color;
-}
+  &--subtitle {
+    font-family: $axis;
+    font-size: 14px;
+    color: $subtitle_color;
+  }
 
-.title {
-  font-family: "Axis";
-  font-size: 40px;
-  letter-spacing: 7px;
-  margin-top: 240px;
-}
-
-.about-all-images {
-  display: block;
+  &--title {
+    font-family: $axis;
+    font-size: 40px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+  }
 }
