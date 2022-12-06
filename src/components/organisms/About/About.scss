@@ -4,21 +4,21 @@
   margin-top: 15%;
   margin-left: 15px;
   margin-right: 65px;
-}
 
-.about__image--first {
-  width: 80%;
-  margin-top: 50%;
-}
+  &__image--first {
+    width: 80%;
+    margin-top: 50%;
+  }
 
-.about__image--second {
-  position: absolute;
-  width: 75%;
-  left: 23%;
-}
+  &__image--second {
+    position: absolute;
+    width: 75%;
+    left: 23%;
+  }
 
-.about__images--all {
-  display: block;
+  &__images--all {
+    display: block;
+  }
 }
 
 .about__text {
@@ -29,17 +29,17 @@
   hyphens: auto;
   margin-bottom: 10%;
   margin-top: 80px;
-}
 
-.about__text--subtitle {
-  font-family: $axis;
-  font-size: 14px;
-  color: $subtitle_color;
-}
+  &--subtitle {
+    font-family: $axis;
+    font-size: 14px;
+    color: $subtitle_color;
+  }
 
-.about__text--title {
-  font-family: $axis;
-  font-size: 40px;
-  letter-spacing: 7px;
-  margin-top: 20px;
+  &--title {
+    font-family: $axis;
+    font-size: 40px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+  }
 }
