@@ -56,7 +56,7 @@
     "followUs": "FOLLOW US:",
     "title": "Renome",
     "copyright" : "COPYRIGHT 2022 RENOME BY ESTETIQ",
-    "socialMedia": [
+    "social_media": [
       { 
         "path": "svg_Icons/icon-facebook-circled.svg",
         "alt": "facebook"
@@ -72,5 +72,26 @@
         "alt": "google-plus"    
       }
     ]
-  }
+  },
+
+  "carousel": [
+    {
+      "title": "made with love",
+      "subtitle": "for you",
+      "alt": "1",
+      "path": "images/carousel_img_1.png"
+    },
+    {
+      "title": "made with hate",
+      "subtitle": "for myself",
+      "alt": "2",
+      "path": "images/carousel_img_2.png"
+    },
+    {
+      "title": "oranges and laptops",
+      "subtitle": "for everyone", 
+      "alt": "3",
+      "path": "images/carousel_img_3.png"
+    }
+  ]
 }

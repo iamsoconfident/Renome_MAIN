@@ -6,23 +6,16 @@ const Footer = (component) => {
       <div className="footer">
         <h1 className="footer__follow-us">{component.props.followUs}</h1>
         <div className="footer__socialmedia">
-          <img
-            className="footer__socialmedia--img"
-            src={component.props.socialMedia[0].path}
-            alt={component.props.socialMedia[0].alt}
-          />
-          <img
-            className="footer__socialmedia--img"
-            src={component.props.socialMedia[1].path}
-            alt={component.props.socialMedia[1].alt}
-          />
-          <img
-            className="footer__socialmedia--img"
-            src={component.props.socialMedia[2].path}
-            alt={component.props.socialMedia[2].alt}
-          />
-          </div>
-
+          {component.props.social_media?.map((item, element) => (
+            <div key={element}>
+              <img
+                className="footer__socialmedia--img"
+                src={item.path}
+                alt={item.alt}
+              />
+            </div>
+          ))}
+        </div>
         <p className="footer__renome">{component.props.title}</p>
         <p className="footer__copyright">{component.props.copyright}</p>
       </div>

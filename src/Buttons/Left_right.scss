@@ -1,0 +1,32 @@
+@import "../../src/root.scss";
+
+.carousel__arrow {
+  position: absolute;
+  left: 22px;
+  bottom: 60px;
+  width: 150px;
+
+  &--right {
+    border: 5px solid #fff;
+    height: $height;
+    width: $width;
+    background-color: $background-color;
+  }
+
+  &--left {
+    border: 5px solid #fff;
+    height: $height;
+    width: $width;
+    background-color: $background-color;
+  }
+}
+
+.carousel__space {
+  width: 20px;
+  display: inline-block;
+}
+
+.carousel__arrow img {
+  height: 35px;
+  width: 35px;
+}
