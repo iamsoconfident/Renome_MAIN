@@ -1,4 +1,17 @@
 {
+  "navigation": {
+    "title": "Renome",
+    "cart": "svg_Icons/cart-shopping.svg",
+    "cart_content": "2",
+    "divider": "|"
+  },
+
+  "cartDropDown": {
+    "price": "$44.50",
+    "viewCart": "View Cart",
+    "checkout": "Checkout"
+  },
+
   "about": {
     "title": "about",
     "subTitle": "WE CREATE DELICIOUS MEMORIES",
@@ -55,21 +68,21 @@
   "footer": {
     "followUs": "FOLLOW US:",
     "title": "Renome",
-    "copyright" : "COPYRIGHT 2022 RENOME BY ESTETIQ",
+    "copyright": "COPYRIGHT 2022 RENOME BY ESTETIQ",
     "social_media": [
-      { 
+      {
         "path": "svg_Icons/icon-facebook-circled.svg",
         "alt": "facebook"
       },
 
-      { 
+      {
         "path": "svg_Icons/icon-twitter-circled.svg",
         "alt": "twitter"
       },
 
-      { 
-        "path": "svg_Icons/icon-google-plus.svg",  
-        "alt": "google-plus"    
+      {
+        "path": "svg_Icons/icon-google-plus.svg",
+        "alt": "google-plus"
       }
     ]
   },
@@ -89,7 +102,7 @@
     },
     {
       "title": "oranges and laptops",
-      "subtitle": "for everyone", 
+      "subtitle": "for everyone",
       "alt": "3",
       "path": "images/carousel_img_3.png"
     }
